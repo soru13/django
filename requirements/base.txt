@@ -1,0 +1,34 @@
+# Base
+pytz==2020.1
+python-slugify==4.0.1
+Pillow==7.2.0
+psycopg2==2.8.5 --no-binary psycopg2
+
+# Django
+Django==4.0.5
+
+# Environment
+django-environ==0.8.1
+
+# Django REST Framework
+djangorestframework==3.13.1
+django-filter==2.4.0
+
+# Passwords security
+argon2-cffi==21.3.0
+
+# Static files
+whitenoise==6.2.0
+
+#This allows in-browser requests to your Django application from other origins.
+django-cors-headers==3.13.0
+
+#to connect RabbitMQ
+pika==1.2.1
+
+# # Celery
+# redis>=3.2.0
+# django-redis==4.10.0
+# celery==5.0.5
+# tornado>=5.0.0,<6.0.0
+# flower==0.9.4
