@@ -4,7 +4,7 @@ Primero editamos el archivo .envs/.local/.postgres
 ```bash
 POSTGRES_DB= name_db
 ```
-luego el archivo docker-compose.yml para cambiar el nombre de la imagen
+Luego el archivo docker-compose.yml para cambiar el nombre de la imagen
 ```bash
 name_app_area_local_django
 ```
